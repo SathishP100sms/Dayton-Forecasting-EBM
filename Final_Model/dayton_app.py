@@ -7,10 +7,10 @@ from io import BytesIO
 
 # The file paths should ideally use os.path.join for cross-platform compatibility,
 # but using the provided paths for now.
-MODEL_PATH = "D:\SOFTWARES\Python_3.10\Final_Model\EBM_DAYTON.pkl"
-FEATURE_COLS_PATH = "D:\SOFTWARES\Python_3.10\Final_Model\DAYTON_feature_cols.pkl"
-DF_PATH = "D:\SOFTWARES\Python_3.10\Final_Model\DAYTON_df.pkl"
-SCALER_PATH = "D:\SOFTWARES\Python_3.10\Final_Model\scaler_DAYTON.pkl"
+MODEL_PATH = "\Final_Model\EBM_DAYTON.pkl"
+FEATURE_COLS_PATH = "\Final_Model\DAYTON_feature_cols.pkl"
+DF_PATH = "\Final_Model\DAYTON_df.pkl"
+SCALER_PATH = "\Final_Model\scaler_DAYTON.pkl"
 
 
 @st.cache_resource
